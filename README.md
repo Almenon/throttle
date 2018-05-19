@@ -1,6 +1,8 @@
 # throttle
 
-generic throttling functions as a npm package
+functions you can use to throttle your input if you get too many calls
+
+> npm install [function-throttler](https://www.npmjs.com/package/function-throttler)
 
 ## API
 
