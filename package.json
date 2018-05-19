@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Almenon/throttle/issues"
   },
-  "homepage": "https://github.com/Almenon/throttle#readme"
+  "homepage": "https://github.com/Almenon/throttle#readme",
+  "devDependencies": {
+    "@types/node": "^9.3.0"
+  }
 }
