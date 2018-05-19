@@ -39,7 +39,7 @@ export class limit{
 
     /**
      * Returns a version of your function that can be called at most every W milliseconds, where W is wait.
-     * for calls that happen more often than W the last call will be the one called
+     * for calls that happen more often than W the last call will be the one called (last takes precedence)
      * @param fn 
      * @param wait 
      */
