@@ -1,5 +1,5 @@
 {
-  "name": "throttle",
+  "name": "function-throttler",
   "version": "1.0.0",
   "description": "generic functions for throttling function calls",
   "main": "throttle.js",
