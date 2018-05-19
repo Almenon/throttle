@@ -1,0 +1,28 @@
+{
+  "name": "throttle",
+  "version": "1.0.0",
+  "description": "generic functions for throttling function calls",
+  "main": "throttle.js",
+  "scripts": {
+    "compile": "tsc -watch -p ./",
+    "compileOnce": "tsc",
+    "declaration": "tsc --target es6 --declaration index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "document": "documentation readme index.js --section=API",
+    "prePublish": "npm run compileOnce && npm run document"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Almenon/throttle.git"
+  },
+  "keywords": [
+    "throttle",
+    "throttling"
+  ],
+  "author": "almenon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Almenon/throttle/issues"
+  },
+  "homepage": "https://github.com/Almenon/throttle#readme"
+}
